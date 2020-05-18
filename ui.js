@@ -27,8 +27,8 @@ class Ui {
     }
     clearForm() {
                 this.uiName.value = "";
-                this.uiDescription.value = ""
-                this.uiQuantity.value = ""
+                this.uiDescription.value = "";
+                this.uiQuantity.value = "";
     }
     loadTable() {
         var html = "";
@@ -48,7 +48,7 @@ class Ui {
         this.manager.addProducts(p1);
         this.loadTable();
 
-    }
+    }  
 }
 let ui = new Ui();
 ui.loadTable();

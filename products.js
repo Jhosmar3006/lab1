@@ -7,7 +7,7 @@ class Products {
 }
 class ProductsManagement {
     constructor() {
-        this.listproducts = []
+        this.listproducts = [];
     }
     addProducts(product) {
         this.listproducts.push(product);
